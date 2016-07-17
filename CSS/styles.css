@@ -1,0 +1,128 @@
+body {
+    background: #dedede;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+hr {
+    height: 2px;
+    width: 95%;
+    background: #000024;
+}
+
+.headerText {
+    width: 95%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #000024;
+    padding: 16px 0 12px 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.label {
+    width: 95%;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #7c8a97;
+    padding: 4px 0 4px 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.inputZip {
+    width: 45%;
+    height: 5%;
+    border: solid 1px #eff0f1;
+    border-radius: 3px;
+    background: #eff0f1;
+    padding: 0;
+    margin: 0 0 0 2.5%;
+}
+
+.input {
+    width: 95%;
+    height: 5%;
+    border: solid 1px #eff0f1;
+    border-radius: 3px;
+    background: #eff0f1;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.select {
+    width: 95%;
+    height: 5%;
+    border: solid 1px #eff0f1;
+    border-radius: 3px;
+    background: #eff0f1;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.item {
+    display: block;;
+    background: #ffffff;
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.itemLabel {
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #7c8a97;
+    padding: 4px 0 4px 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.itemInput {
+    display: inline;
+}
+
+.userInput {
+    height: 25%;
+    width: 95%;
+    border: solid 1px #eff0f1;
+    border-radius: 3px;
+    background: #eff0f1;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.submitButton {
+    height: 15%;
+    width: 95%;
+    border: solid 1px #49bbb5;
+    border-radius: 3px;
+    background: #49bbb5;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.8em;
+    color: #ffffff;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.footerText {
+    width: 95%;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    color: #7c8a97;
+    padding: 4px 0 50% 0;
+    margin: 0 auto;
+    text-align: center;
+}
