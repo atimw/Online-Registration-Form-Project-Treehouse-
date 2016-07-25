@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+/**** Body ****/
+body {
+    color: #47484b;
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/**** General ****/
+h1 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+h2, legend {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+label, input {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+/**** Container ****/
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+/**** Header ****/
+header {
+    padding: 0;
+    margin: 0 0 10% 0;
+    text-align: center;
+}
+
+/**** Banner ****/
+.banner {
+    width: 100%;
+    text-transform: uppercase;
+    color: #8757ad;
+    background: #b1b1b1;
+    margin: 0 0 30px 0;
+    padding: 10px 0 10px 0;
+}
+
+/**** fsContact ****/
+fieldset {
+    border: none;
+    padding: 0 0 10% 0;
+}
+
+legend {
+    padding: 0;
+    text-align: center;
+    color: #8757ad;
+}
+
+.fsContact label {
+    display: block;
+    padding: 5% 2% 0 5%;
+    margin: 0 auto;
+}
+
+.fsContact input {
+    width: 90%;
+    padding: 0;
+    margin: 0 5% 0 5%;
+    color: #afafaf;
+    height: 50px;
+}
+
+.fsContact input:focus {
+    background: #e9dbff;
+    transition:background .3s ease-in;
+}
+
+select {
+    cursor: pointer;
+    width: 90%;
+    padding: 0;
+    margin: 0 5% 0 5%;
+    background: #ffffff;
+    color: #afafaf;
+    height: 50px;
+}
+
+input[id="zip"] {
+    width: 45%;
+    padding: 0;
+    margin: 0 5% 0 5%;
+    color: #afafaf;
+    height: 50px;
+}
+
+/**** fsNewsletter ****/
+.fsNewsletter {
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+/**** textarea ****/
+textarea {
+    height: 150px;
+    width: 90%;
+    resize: none;
+    background: #ffffff;
+    padding: 0;
+    margin: 10% 5% 0 5%;
+}
+    
+
+/**** button ****/
+button {
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px #47484b solid;
+    font-weight: 900;
+    font-size: 1.8em;
+    color: #8757ad;
+    background: #b1b1b1;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/**** footer ****/
+footer {
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/**** media querie min 760px ****/
+@media (min-width:760px){
+
+    header {
+        width: 100%;
+        margin: 0 0 5% 0;
+    }
+    
+    .fsContact,
+    .fsNewsletter {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 0 5% 0;
+    }
+
+    legend {
+        text-align: left;
+        color: #8757ad;
+        padding: 0;
+        margin: 0 0 0 15%;
+    }
+
+    .fsContact label {
+        display: inline-block;
+        width: 21%;
+        padding: 15px 0 5px 0;
+        margin: 0 0 0 15%;
+    }
+
+    .fsContact input {
+        width: 39%;
+        padding: 0;
+        margin: 0 15% 0 0;
+        color: #afafaf;
+        height: 30px;
+        
+    }
+
+    select {
+        cursor: pointer;
+        width: 20%;
+        padding: 0;
+        margin: 0 auto;
+        background: #ffffff;
+        color: #afafaf;
+        height: 30px;
+    }
+
+    input[id="zip"] {
+        width: 20%;
+        padding: 0;
+        margin: 0 auto;
+        color: #afafaf;
+        height: 30px;
+    }
+
+    /**** fsNewsletter ****/
+    .fsNewsletter p {
+        margin: 0 0 0 15%;
+    }
+    
+    .fsNewsletter input {
+        padding: 2px;
+        margin: 0 0 0 15%;
+    }
+    
+    .fsNewsletter label {
+        padding: 2px;
+        margin: 0;
+    }
+    
+    /**** textarea ****/
+    label[for="other"] {
+        margin: 0 0 0 15%;
+    }
+    
+    textarea {
+        width: 75%;
+        margin: 5px 0 0 12.5%;
+    }
+    
+    label[for="rec"] {
+        margin: 0 0 0 15%;
+    }
+    
+    select[for="rec"] {
+        width: auto;
+    }
+    
+    /**** button ****/
+    button {
+        width: 60%;
+        margin: 0 20% 0 20%;
+    }
+}
