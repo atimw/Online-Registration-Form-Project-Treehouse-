@@ -97,6 +97,11 @@ select {
     height: 50px;
 }
 
+select:focus {
+    background: #e9dbff;
+    transition:background .3s ease-in;
+}
+
 input[id="zip"] {
     width: 45%;
     padding: 0;
@@ -119,6 +124,11 @@ textarea {
     background: #ffffff;
     padding: 0;
     margin: 10% 5% 0 5%;
+}
+
+textarea:focus {
+    background: #e9dbff;
+    transition:background .3s ease-in;
 }
     
 
@@ -237,5 +247,17 @@ footer {
     button {
         width: 60%;
         margin: 0 20% 0 20%;
+    }
+}
+
+/**** media querie min 1280px ****/
+@media (min-width:1280px) {
+    .fsContact,
+    .fsNewsletter {
+        width: 80%;
+        margin: 2% auto 2% auto;
+        padding: 2% 0 2% 0;
+        border: 1px solid purple;
+        box-shadow: 10px 10px #949494;
     }
 }
